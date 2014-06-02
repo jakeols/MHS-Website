@@ -14,8 +14,11 @@ class HomeController extends BaseController {
 	|	Route::get('/', 'HomeController@showWelcome');
 	|
 	*/
-
 	public function showHome()
+	{
+		return 'Home Page';
+	}
+	public function showStore()
 	{
 		$products = Product::paginate(12);
 		return View::make('home')->with('products', $products);

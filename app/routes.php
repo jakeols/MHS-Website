@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@showHome');
+Route::get('/store', 'HomeController@showStore');
 
 Route::pattern('id', '[0-9]+');
 Route::get('item/{id}', 'HomeController@showItem');

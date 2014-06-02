@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resell Net</title>
+    <title>Montessori High School</title>
 
 	{{ HTML::style('css/bootstrap.css'); }}
 	{{ HTML::style('css/custom.css'); }}
