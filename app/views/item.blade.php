@@ -51,6 +51,7 @@
                 <p class="lead">Resell Net</p>
                 <div class="list-group">
                     <a href="#" class="list-group-item">Shirts</a>
+                    <a href="#" class="list-group-item">Sweatshirts</a>
                     <a href="#" class="list-group-item">Pants</a>
                     <a href="#" class="list-group-item">Accesories</a>
                 </div>
@@ -86,7 +87,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Resell Net 2013</a>
+                    <p>Copyright &copy; Montessori High School 2014</a>
                     </p>
                 </div>
             </div>

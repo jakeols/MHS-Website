@@ -47,12 +47,12 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Resell Net</p>
+                <p class="lead">Montessori High School</p>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Shirts</a>
-                    <a href="#" class="list-group-item">Pants</a>
-                    <a href="#" class="list-group-item">Accessories</a>
-                    <a href="#" class="list-group-item">Shoes</a>
+                    {{ link_to_action('HomeController@showCategory', 'Shirt', 'shirt', $attributes=array('class'=>'list-group-item'))}}
+                    {{ link_to_action('HomeController@showCategory', 'Sweatshirts', 'sweatshirt', $attributes=array('class'=>'list-group-item'))}}
+                    {{ link_to_action('HomeController@showCategory', 'Pants', 'pant', $attributes=array('class'=>'list-group-item'))}}
+                    {{ link_to_action('HomeController@showCategory', 'Accessories', 'accessory', $attributes=array('class'=>'list-group-item'))}}
                 </div>
             </div>
 
@@ -110,7 +110,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Resell Net 2014
+                    <p>Copyright &copy; Montessori High School 2014
                     </p>
                 </div>
             </div>
