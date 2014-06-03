@@ -9,16 +9,7 @@
                                 <h4>{{ link_to_action('HomeController@showItem', $product->product_name, $product->id)}} </h4>
                                 <p>{{ $product->description }}</p>
                             </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                </p>
-                            </div>
+                            
                         </div>
                     </div> 
  @endforeach

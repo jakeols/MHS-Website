@@ -16,6 +16,7 @@ class HomeController extends BaseController {
 	*/
 	public function showHome()
 	{
+		return View::make('index');
 		return 'Home Page';
 	}
 	public function showStore()
@@ -25,7 +26,10 @@ class HomeController extends BaseController {
 	}
 	public function showItem($id)
 	{
-		$products = Product::where('id','=', $id);
+
+		$products = DB::table('products')->where('id', '=', $id)->get();
+
+		#$products = Product::where('id', $id)->get();
 		return View::make('product')->with('products', $products);
 
 	}
